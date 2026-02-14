@@ -1,0 +1,84 @@
+body{
+    font-family:arial;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-size: 16px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+.header .wname{
+    background-color: #35424a;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 10px;
+}
+.header .nav{
+    color:black;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+}
+.header .nav a{
+    color:black;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.header .nav a:hover{
+    background-color: #35424a;
+    color: #ffffff;
+}
+.header .func{
+    display:flex;
+    align-items: center;
+
+    padding: 10px;
+    font-size: 18px;
+}
+.header .func a{
+    color:black;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.header .func a:hover{
+    background-color: #35424a;
+    color: #ffffff;
+}
+.banner{
+    background-image: url(resources/anh_ao_khoac.jpg);
+    color: #ffffff;
+    padding: 100px 0 ;
+    text-align: center;
+}
+.categories{
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+.cate{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height:400px;
+    width: 100%;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.cate .catejr{
+    flex-basis: 30%;
+    padding: 10px;
+}
