@@ -230,8 +230,9 @@ a {
     padding: 50px 50px;
 }
 .products_showcase .products{
-    display:grid;
-    grid-template-columns: repeat(4,1fr);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     gap: 20px;
 }
 .products_showcase .products .product{
