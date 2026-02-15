@@ -13,18 +13,36 @@ a {
 .header{
     display:flex;
     justify-content: space-between;
+    height: 60px;
 }
 .header .wname{
+    width: 15%;
+    box-sizing: border-box;
+
     background-color: #35424a;
     color: #ffffff;
+    
+    font-weight: bold;
+    
+    padding: 0 5px 0 5px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.header .wname a{
+    color: #ffffff;
     font-size: 24px;
-    padding: 10px;
 }
 .header .nav{
+
     color:black;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 5px;
 
     padding: 10px;
     font-size: 18px;
@@ -37,8 +55,11 @@ a {
     border-radius: 5px;
 }
 .header .nav a:hover{
-    background-color: #35424a;
+    background-color: #8dafc4;
     color: #ffffff;
+}
+.header .sale{
+    color: #ff0000 !important;
 }
 .header .func{
     display:flex;
@@ -62,23 +83,74 @@ a {
     background-image: url(resources/anh_ao_khoac.jpg);
     color: #ffffff;
     padding: 100px 0 ;
-    text-align: center;
+    
+    width: 100%;
+    height: 100px;
+    
+    background-size:cover;
+    background-position: center;
+
 }
 .categories{
-    padding: 20px;
-    background-color: #ffffff;
-    margin: 20px 0;
+    margin:100px 0 100px 0;
+    padding: 10px 50px;
+    height: 400px;
 }
-.cate{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    height:400px;
-    width: 100%;
-    margin: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.categories .cate{
+    display:flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    scrollbar-width: thin;
 }
-.cate .catejr{
-    flex-basis: 30%;
+.categories .cate .c_item{
     padding: 10px;
+    margin: 10px;
+    flex-basis: 10%;
+    
+}
+.categories .cate .c_item img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.categories .cate .c_item h3{
+    text-align: center;
+    margin: 10px 0;
+}
+.categories .cate .c_item .catejr_func{
+    display:flex;
+    justify-content: center;
+}
+.categories .cate .c_item .catejr_func a{
+    background-color: #35424a;
+    color: #ffffff;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.categories .cate .c_item .catejr_func a:hover{
+    background-color: #ffffff;
+    color: #35424a;
+    border: 1px solid #35424a;
+}
+.new_year_sale{
+    padding: 50px 50px;
+    margin: 100px 5px;
+    background-color: #fff0df;
+    height: 600px;
+}
+.new_year_sale .new_year_products{
+    display:flex;
+    justify-content: space-evenly;
+    overflow: auto;
+    scrollbar-width: thin;
+}
+.new_year_sale .new_year_products .nyp{
+    padding: 10px;
+    margin: 10px;
+    flex-basis: 10%;
+}
+.new_year_sale .new_year_products .nyp img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
 }
