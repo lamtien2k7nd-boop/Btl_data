@@ -170,23 +170,30 @@ a {
     margin: 20px 0 0 0;
 }
 .new_year_sale .new_year_products .nyp .color .yellow{
-    width: 50px;
+    width: 30px;
     height: 20px;
     background-color: #ffff00;
     border-radius: 10px;
+    margin-top: 10px;
 }
 .new_year_sale .new_year_products .nyp .color .red{
-    width: 50px;
+    width: 30px;
     height: 20px;
     background-color: #ff0000;
     /* border-radius: 40%; */
     border-radius: 10px;
+    margin-top: 10px;
 }
 .new_year_sale .new_year_products .nyp .color .orange{
-    width: 50px;
+    width: 30px;
     height: 20px;
     background-color: #ff7300;
     border-radius: 10px;
+    margin-top:10px;
+}
+.new_year_sale .new_year_products .nyp  p{
+    margin: 10px 0 0 0;
+    font-weight: bold;
 }
 .new_year_sale .new_year_products .nyp .ny_price{
     display:flex;
@@ -261,6 +268,7 @@ a {
     height: 20px;
     background-color: #ffff00;
     border-radius: 10px;
+    margin-top:15px;
 }
 .products_showcase .products .product .color .red{
     width: 50px;
@@ -268,12 +276,31 @@ a {
     background-color: #ff0000;
     /* border-radius: 40%; */
     border-radius: 10px;
+    margin-top: 15px;
 }
 .products_showcase .products .product .color .orange{
     width: 50px;
     height: 20px;
     background-color: #ff7300;
     border-radius: 10px;
+    margin-top:15px;
+}
+.products_showcase .products .product .color p{
+    margin: 15px 0 0 0;
+    font-weight: bold;
+}
+.products_showcase .products .product h4{
+    margin: 10px 0 0 0;
+    font-size: 20px;
+}
+.products_showcase .products .product p{
+    margin: 10px 0;
+    font-weight: bold;
+}
+.products_showcase .products .product .ori_price{
+    color: #8c8c8c;
+    margin: 10px 0 0 0;
+    font-size:14px
 }
 .products_showcase .products .product a{
     background-color: #35424a;
